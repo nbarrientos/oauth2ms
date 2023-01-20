@@ -34,7 +34,7 @@
 	"scopes": ["https://outlook.office.com/IMAP.AccessAsUser.All", "https://outlook.office.com/SMTP.Send"]
     }
   #+end_src
-  The TENANT_ID and CLIENT_ID are available on the overview page of the app. CLIENT_SECRET is the one created in step 6.
+  The TENANT_ID and CLIENT_ID are available on the overview page of the app. CLIENT_SECRET is the one optionally created in step 6.
   If you entered a different port and redirect path in step 5, modify accordingly.
 * mbsync configuration
   First install the [[https://github.com/moriyoshi/cyrus-sasl-xoauth2][xoauth2 sasl plugin]]. Then change the following lines in you mbsync configuration:
